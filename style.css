@@ -1,0 +1,87 @@
+/* Cores principais */
+body {
+  background-color: #dfd5c4;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header h1 {
+  color: #4a3017;
+  font-weight: bold;
+}
+
+/* Cabeçalho dos cards */
+.card-header {
+  background-color: #4a3017;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Rótulos dos campos */
+.form-label {
+  color: #4a3017;
+  font-weight: 600;
+}
+
+/* Foco nos campos */
+.form-control:focus,
+.form-select:focus {
+  border-color: #e67e22;
+  box-shadow: 0 0 0 0.2rem rgba(230, 126, 34, 0.25);
+}
+
+/* Botões */
+.btn-laranja {
+  background-color: #e67e22;
+  color: #fff;
+  border: none;
+}
+
+.btn-laranja:hover {
+  background-color: #cf711c;
+}
+
+.btn-azul {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+}
+
+.btn-azul:hover {
+  background-color: #21618c;
+}
+
+.btn-verde {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+}
+
+.btn-verde:hover {
+  background-color: #1e8449;
+}
+
+/* Lista de cadastros */
+ul li {
+  background: #f4ece4;
+  border-radius: 6px;
+  padding: 8px 10px;
+  margin-bottom: 6px;
+}
+
+ul li:nth-child(even) {
+  background: #ede3d8;
+}
+
+/* Botão de remover */
+.btn-remover {
+  background: #c0392b;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.btn-remover:hover {
+  background: #a93226;
+}
